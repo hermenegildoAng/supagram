@@ -4,9 +4,8 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import HeartIcon from "../components/HeartIcon";
 import Modal from "../components/Modal";
-import { type Post } from "../mocks/posts";
-import { supabase } from "../utils/supabase";
-
+import { supabase } from "../lib/supabase";
+import { Post } from "../types";
 
 
 export default function RankPage() {

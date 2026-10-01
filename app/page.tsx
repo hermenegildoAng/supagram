@@ -2,9 +2,8 @@
 
 import { useEffect, useState } from "react";
 import PostCard from "./components/PostCard";
-import { type Post } from "./mocks/posts";
-import { supabase } from "./utils/supabase";
-
+import { supabase } from "./lib/supabase";
+import { Post } from "./types";
 export default function Home() {
 
   
