@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Post } from "../mocks/posts";
+import { Post } from "../types";
 import { getTimeAgo } from "../utils/time";
 import HeartIcon from "./HeartIcon";
 
